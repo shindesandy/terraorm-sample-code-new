@@ -8,7 +8,7 @@ variable "hw" {
 }
 
 variable "name" {
-  default = "sandeep-auto-tf"
+  default = "sandeep-auto-tf-23sep"
 }
 
 variable "env" {
