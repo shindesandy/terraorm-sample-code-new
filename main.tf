@@ -5,7 +5,7 @@ provider "aws" {
 
 resource "aws_instance" "myawsserver" {
   ami = var.image
-  instance_type = "t2.nano"
+  instance_type = "t2.small"
  # key_name = "sandeep-import"
   tags = {
     Name = lower (var.name)
